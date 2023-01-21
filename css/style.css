@@ -1,0 +1,119 @@
+/* TABLE OF CONTENTS */
+/* ------------------
+1. General
+2. Navbar
+3. Banner  
+4. Best Deals
+5. Donate 
+6. Footer
+-------------------- */
+
+/* 1 General */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root {
+    /* Background Color */
+    --bg-red: #d3282e;
+    --bg-white: #fff;
+    --bg-light-white: #f6f7f8;
+    --bg-yellow: #fdd800;
+    --bg-green: #009900;
+
+    /* Text Color */
+    --text-black: #1f1f1f;
+    --text-white: #fff;
+    --text-red: #d3282e;
+    --text-green: #009900;
+    --text-yellow: #fdd800;
+
+    /* Fonts */
+    --primary-font: 'Great Vibes', cursive;
+    --secondary-font: 'Poppins', sans-serif;
+}
+body{
+    background-color: var(--bg-white);
+}
+.text-red{
+    color:var(--text-red);
+}
+.bg-red{
+    background-color:var(--bg-red) !important;
+}
+.bg-light-white{
+    background-color:var(--bg-light-white) !important;
+}
+.bg-green{
+    background-color:var(--bg-green) !important;
+}
+h1{
+    font-size:80px;
+    font-family: var(--primary-font);
+    letter-spacing:5px;
+    font-weight: 500;
+    color:var(--text-white);
+} 
+h3{
+    font-size:35px; 
+    letter-spacing:2px;
+    font-weight: 700;
+    color:var(--text-white);
+    margin-bottom:15px;
+}
+h4{
+    font-size:30px; 
+    letter-spacing:2px;
+    font-weight: 500;
+    color:var(--text-white);
+    margin-bottom:15px;
+}
+h5{
+    font-size:22px; 
+    letter-spacing:2px;
+    font-weight: 500;
+    color:var(--text-white);
+    margin-bottom:15px;
+}
+p{
+    margin-top:5px;
+    margin-bottom:1rem;
+    font-size:16px;
+    font-weight: 300;
+    line-height:normal;
+    color:var(--text-white);
+}
+.header .navbar-brand img{
+    max-width: 210;
+    height: auto;
+}
+.header .nav-item{
+    margin: 0 10px;
+}
+.header .nav-item .nav-link{
+    font-size:15px;
+    font-weight: 500;
+    color:var(--text-white);
+    line-height: 1;
+    letter-spacing: 1px;
+}
+.header .nav-item .nav-link.active{
+    color:var(--text-yellow);
+}
+/banner css/
+
+.banner{
+    background: var(--bg-red);
+
+}
+.carousel-indicators [data-bs-target]{
+    width:12px;
+    height:12px;
+    border-radius: 50%;
+    background-color:var(--bg-yellow) !important;
+}

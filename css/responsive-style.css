@@ -1,0 +1,118 @@
+@media(max-width: 1300px){
+	/custom css/
+
+	h1{
+		font-size: 50px;
+	}
+
+	/navbar/
+	.header .menu-navbar-nav{
+		width: auto;
+	}
+}
+
+@media(max-width: 1230px){
+
+	/navbar/
+
+	.header .nav-item{
+		margin: 0 5px;
+	}
+
+	/banner/
+
+	.banner{
+		padding: 50px 0 10px;
+	}
+
+}
+
+@media(max-width: 1070px){
+
+	/navbar/
+
+	.header .nav-item .nav-link{
+		font-size: 16px;
+	}
+
+	/banner/
+
+	.carousel-caption{
+		bottom: 1.25rem;
+	}
+
+}
+
+@media(max-width: 992.5px){
+
+	/custom css/
+
+	h1{
+		font-size: 30px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	h4{
+		font-size: 18px;
+	}
+
+	/navbar/
+
+	.header .navbar{
+		background: var(--bg-red);
+	}
+	.header .navbar-brand img{
+		width: 180px;
+	}
+	.header .navbar-toggler:focus{
+		box-shadow: none;
+	}
+	.header .menu-navbar-nav{
+		text-align: center;
+	}
+	.header .nav-item .nav-link{
+		margin-top: 15px; 
+	}
+
+	/banner/
+
+}
+
+@media(max-width: 767px){
+
+	/footer/
+
+}
+
+@media(max-width: 610px){
+
+	/custom css/
+
+	h1{
+		font-size: 25px;
+	}
+	h3{
+		font-size: 16px;
+	}
+
+
+	/banner/
+
+	.banner{
+		padding-top: 90px;
+	}
+	.banner .carousel-caption{
+		bottom: -0.25rem;
+	}
+	.banner .carousel-inner{
+		height: 200px;
+	}
+	.banner .carousel-item{
+		height: 100%;
+	}
+	.banner .carousel-indicators{
+		bottom: -20px;
+	}
+
+}
